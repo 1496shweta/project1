@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color: hsl(346deg 17% 70%);
+    display:flex;
+    
+
+}
+#part1{
+    height:100%;
+    width:20%;
+
+}
+#part2{
+    height:100%;
+    width:68%;
+    background-color: blueviolet;
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+
+    background-position: bottom;
+   
+
+}
+#overlay {
+    height:100%;
+    width:100%;
+    background-color:  hsla(342, 15%, 17%, 0.714);
+}
+#part3{
+    height :100%;
+    width:12%;
+
+}
+#text-div{
+   
+    position :absolute;
+    width:400px;
+    left:5%;
+    top:50%;
+    transform:translate(0,-50%);
+}
+
+#text-div>h1{
+    font-size: 75px;
+    font-family: monument;
+    font: weight 6px;
+    letter-spacing:8px;
+    line-height:60px;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+#small-image-div{
+    height:400px;
+    width:300px;
+  
+    background-image: url(https://images.unsplash.com/photo-1583766395091-2eb9994ed094?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vZGVsfGVufDB8fDB8fHww);
+    background-position: cover;
+    background-size: cover;
+    position:absolute;
+    top:20%;
+    right:5%;
+    transform: translate(0,20%);
+
+}
+#vertical-text{
+    position:absolute;
+    right: -45%;top:-5%;
+
+    z-index:5;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    
+  
+
+}
+#vertical-text>h1{
+    font-weight:500;
+    font-size: 70px;
+    font-family: monument;
+    letter-spacing: 10px;
+    color:transparent;
+
+    text-transform: uppercase;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color: #fff;
+
+
+}
+
+#nav{
+    position: absolute;
+    width:450px;
+    left:5%;
+    top: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav img{
+    height:60px;
+
+}
+#nav h5{
+    font-size:20px;
+    color:#fff;
+    font-family: gilroy;
+    left: -5px;
+
+
+
+}
